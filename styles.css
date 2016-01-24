@@ -1,0 +1,20 @@
+/*your CSS goes here*/
+/* styles.css */
+
+
+input, textarea {
+	background-color: yellow;
+}
+
+#lname {
+	font-weight: bold;
+}
+
+div {
+	border-style: groove;
+	border-width: medium;
+	border-color: green;
+
+	padding: 50px;
+}
+/* ... */
