@@ -18,23 +18,23 @@
         </div>
         <br>
         <form action="/application" method="POST" >
-        	First Name:<br>
-        	<input type="text" name="firstname"><br>
-        	Last Name:<br> 
-        	<input type="text" id="lname" name="lastname">
+        	<label for="first-name-input">First Name:</label><br>
+        	<input type="text" name="firstname" id="first-name-input"><br>
+        	<label for="last-name-input">First Name:</label><br>
+        	<input type="text" id="lname" name="lastname" id="last-name-input">
         	<br>
-        	Salary Requirement:<br>
-        	<input type="text" name="salary">
+            <label for="salary-requirement">Salary Requirement:</label><br>
+        	<input type="text" name="salary" id="salary-requirement">
         	<br>
-        	Possition:<br>
-        		<select name="possitions">
+        	<label for="desired-position">Position:</label><br>
+        		<select name="positions" id="desired-positions">
         			<option value="swe">Software Engineer</option>
         			<option value="qa">QA Engineer</option>
         			<option value="pm">Product Manager</option>
         		<select>
         	<br>
         	<br>
-        	<input type="submit">
+        	<label for="button"><input type="submit" name="button" id="button"></label>
         </form>
     </body>
 </html>
